@@ -1,0 +1,24 @@
+{
+  "name": "kintone_to_teams",
+  "version": "1.0.0",
+  "description": "receive webhook from kintone, and send to teams.",
+  "main": "src/index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "npx tsc && cross-env NODE_ENV=production node dist/index.js",
+    "dev": "npx tsc && node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fit-sogokanri/kintone_to_teams.git"
+  },
+  "author": "SouTamura",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-loader": "^9.5.1",
+    "typescript": "^5.7.2",
+    "webpack": "^5.97.1",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.0"
+  }
+}
