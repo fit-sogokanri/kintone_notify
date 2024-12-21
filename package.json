@@ -1,7 +1,7 @@
 {
-  "name": "kintone_to_teams",
+  "name": "kintone_notify",
   "version": "1.0.0",
-  "description": "receive webhook from kintone, and send to teams.",
+  "description": "receive webhook from kintone, and send to other platforms.",
   "main": "src/index.js",
   "scripts": {
     "build": "npx tsc",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fit-sogokanri/kintone_to_teams.git"
+    "url": "https://github.com/fit-sogokanri/kintone_notifys.git"
   },
   "author": "SouTamura",
   "license": "MIT",

@@ -3,7 +3,7 @@ import cors from "cors";
 
 import {router as APIRoutes} from "./routes/index"
 
-const debug = require("debug")("kintone_to_teams:app")
+const debug = require("debug")("kintone_notify:app")
 
 const app = express();
 

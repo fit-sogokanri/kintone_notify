@@ -7,10 +7,10 @@ config();
 const debug_mode = process.env.NODE_ENV==="development";
 if (debug_mode) {
     // @ts-ignore
-    //process.env.DEBUG = 'kintone_to_teams:*'
+    //process.env.DEBUG = 'kintone_notify:*'
 }
 
-const debug = require('debug')('kintone_to_teams:index');
+const debug = require('debug')('kintone_notify:index');
 
 const port = parseInt(process.env.PORT || "3000", 10);
 
